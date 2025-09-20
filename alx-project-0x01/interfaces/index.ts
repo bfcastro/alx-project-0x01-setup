@@ -21,7 +21,7 @@ export interface Geo {
     id: number;
     name: string;
     email: string;
-    username?: string;
+    username: string;
     address?: Address;
     phone?: string;
     website?: string;
