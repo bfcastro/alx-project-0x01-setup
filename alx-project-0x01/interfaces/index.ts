@@ -20,12 +20,12 @@ export interface Geo {
   export interface UserProps {
     id: number;
     name: string;
-    username: string;
     email: string;
-    address: Address;
-    phone: string;
-    website: string;
-    company: Company;
+    username?: string;
+    address?: Address;
+    phone?: string;
+    website?: string;
+    company?: Company;
   }
   
   export interface PostProps {
